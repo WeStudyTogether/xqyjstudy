@@ -1,0 +1,9 @@
+*.class
+bin/
+*.classpath
+*.project
+.idea/
+out/
+*.iml
+*.jar
+*.prefs
