@@ -15,7 +15,10 @@ public class RangeLister {
 	  RangeLister lister = new RangeLister();
 	  
 	  range = lister.makeRange(4, 13);
+	  System.out.print("The array: [ ");
+	  for (int i =0;i < range.length; i++) {
 	  System.out.print(range[i] + " ");
+  }
       System.out.println(")");
   }
 }
