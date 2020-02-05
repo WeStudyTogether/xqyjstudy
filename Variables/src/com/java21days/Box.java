@@ -1,6 +1,5 @@
 package com.java21days;
 
-import java.awt.Paint;
 import java.awt.Point;
  
 class Box{
@@ -17,7 +16,7 @@ class Box{
 		  return this;
 	  }
 	  
-	  Box buildBox(Paint topLeft, Point bottomRight) {
+	  Box buildBox(Point topLeft, Point bottomRight) {
 		  x1 = topLeft.x;
 		  y1 = topLeft.y;
 		  x2 = bottomRight.x;
@@ -26,8 +25,8 @@ class Box{
 	  }
 	  
 	  Box bulidBox(Point topLeft, int w, int h) {
-		  x1 = topLeft;
-		  y1 = topLeft;
+		  x1 = topLeft.x;
+		  y1 = topLeft.y;
 		  x2 = (x1 + w);
 		  y2 = (y1 + h);
 		  return this;
@@ -48,14 +47,12 @@ class Box{
 		  
 		  System.out.println("\nClling buildBox with"
 				  + "points(10,10) and (20,20):");
-		  rectbuildBox(new Point(10,10),new Point(20,20));
 		  rect.printBox();
 		  
 	  System.out.println("\nCalling buildBox with"
 	  + "point (10,10), width 50 and height 50:");
 	  
-	  rect.buildBox(new Point(10,10),50,50);
 	  rect.printBox();
 	  }
-  }
+  
 }
