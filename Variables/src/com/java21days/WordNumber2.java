@@ -49,4 +49,5 @@ public class WordNumber2 {
 		    System.out.println("请在控制台输入参数");
 		}
 	}
+	
 }
