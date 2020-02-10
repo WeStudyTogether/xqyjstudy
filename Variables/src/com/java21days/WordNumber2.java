@@ -1,53 +1,53 @@
 package com.java21days;
-//Õâ¸öÎÒ²»Ì«¶®¡£¶øÇÒÎÒÓÃreturn»á±¨´í£¬ÒòÎªËûËµvoidÕâÊÇÃ»ÓĞ·µ»ØÖµµÄ£¬ËùÒÔÎÒ¸ÄÁË£¬×ÜÖ®¾ÍÊÇ²»Ì«Ã÷°×
+//ï¿½ï¿½ï¿½ï¿½Ò²ï¿½Ì«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½returnï¿½á±¨ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ëµvoidï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ğ·ï¿½ï¿½ï¿½Öµï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¸ï¿½ï¿½Ë£ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½Ç²ï¿½Ì«ï¿½ï¿½ï¿½ï¿½
 public class WordNumber2 {
-	public long oneToTen(String nums) {
-		long num = 0L;
-switch (nums) {
-  case "one" :
-	  num = 1L;
-      break;
-  case  "two":
-	  num = 2L;
-	  break;
-  case "three":
-	  num = 3L;
-      break;
-  case " four":
-	  num = 4L;
-	  break;
-  case "five":
-	  num = 5L;
-	  break;
-  case "six":
-	  num = 6L;
-	  break;
-  case "seven":
-	  num = 7L;
-	  break;
-  case "eight":
-	  num = 8L;
-	  break;
-  case "nine":
-	  num = 9L;
-	  break;
-  case "ten":
-	  num = 10L;
-	  break;
-	 default:
-		 System.out.println("the default is :" + num);
+    
+    public long oneToTen(String nums) {
+        long num = 0L;
+        switch (nums) {
+        case "one" :
+            num = 1L;
+            break;
+        case  "two":
+            num = 2L;
+            break;
+        case "three":
+            num = 3L;
+            break;
+        case " four":
+            num = 4L;
+            break;
+        case "five":
+            num = 5L;
+            break;
+        case "six":
+            num = 6L;
+            break;
+        case "seven":
+            num = 7L;
+            break;
+        case "eight":
+            num = 8L;
+            break;
+        case "nine":
+            num = 9L;
+            break;
+        case "ten":
+            num = 10L;
+            break;
+        default:
+            System.out.println("the default is :" + num);
+        }
+        return num;
     }
-	return num;
-}
-	
+    
 	public static void main(String[] arguments) {
-		WordNumber2 wordNumber2 = new WordNumber2();
+	    WordNumber2 wordNumber2 = new WordNumber2();
 		if (arguments.length > 0) {
-			System.out.println(wordNumber2.oneToTen(arguments[0]));
-		}else {
-			System.out.println("ÇëÔÚ¿ØÖÆÌ¨ÊäÈë²ÎÊı");
+		    System.out.println(wordNumber2.oneToTen(arguments[0]));
+		} else {
+		    System.out.println("è¯·åœ¨æ§åˆ¶å°è¾“å…¥å‚æ•°");
 		}
-		}
-		
 	}
 	
+}
