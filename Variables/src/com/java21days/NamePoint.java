@@ -2,7 +2,7 @@ package com.java21days;
 
 import java.awt.Point;
 
-class NamedPoint extends Point{
+class NamedPoint extends Point {
 	String name;
 	
 	NamedPoint(int x, int y, String name){

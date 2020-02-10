@@ -1,7 +1,7 @@
 package com.java21days;
 
 import java.awt.Point;
-
+//there are many points that I do not know
 public class Box2 {
 	int x1 = 0;
 	int y1 = 0;
@@ -25,4 +25,27 @@ public class Box2 {
 				 topLeft.y +h);
 	 }
 	 
+	 void printBox() {
+		 System.out.print("Box: <" + x1 + ", " + y1);
+		 System.out.println(", " + x2 + "," + y2 + ">");
+		 }
+	 
+	 public static void main(String[] arguments) {
+		 Box2 rect;
+		 
+		 System.out.println("Calling Box2 with coordinates"
+				 +"(25,25) and (50,50):" );
+		 rect = new Box2(25,25,50,50);
+		 rect.printBox();
+		 
+		 System.out.println("\nCalling Box2 with coordinates"
+				 + "(10,10) and (20,20): " );
+		rect = new Box2(new Point (10,10), new Point(20,20));
+		rect.printBox();
+		 
+		 System.out.println("\nCalling Box2 with points"
+				 + "(10,10) and (20,20):");
+		 rect = new Box2(new Point (10,10), 50, 50);
+		 rect.printBox();
+	 }
 }
