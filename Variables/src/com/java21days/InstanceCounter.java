@@ -16,7 +16,7 @@ public class InstanceCounter {
   }
   
   public static void main(String[] arguments) {
-	  System.out.println("sTARTING WITH " +
+	  System.out.println("starting with " +
        InstanceCounter.getCount() + " objects");
 	  for (int i = 0; i < 500; ++i) {
 		  new InstanceCounter();
