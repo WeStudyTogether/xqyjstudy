@@ -47,24 +47,13 @@ import java.awt.Point;
 		  
 		  System.out.println("\nClling buildBox with"
 				  + "points(10,10) and (20,20):");
-<<<<<<< HEAD
 		  rect.buildBox(new Point(10,10),new Point(20,20));
-=======
->>>>>>> master
 		  rect.printBox();
 		  
 	  System.out.println("\nCalling buildBox with"
 	  + "point (10,10), width 50 and height 50:");
 	  
-<<<<<<< HEAD
 	  rect.bulidBox(new Point(10,10),50,50);
 	  rect.printBox();
 	  }
   }
-
-=======
-	  rect.printBox();
-	  }
-  
-}
->>>>>>> master
