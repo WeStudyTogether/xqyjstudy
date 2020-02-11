@@ -2,6 +2,7 @@ package com.java21days;
 
 import java.awt.Point;
 
+@SuppressWarnings("serial")
 class FourDPoint extends Point {
 	int z;
 	int t;
