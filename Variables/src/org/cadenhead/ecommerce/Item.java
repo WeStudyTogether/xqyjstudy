@@ -1,6 +1,7 @@
 package org.cadenhead.ecommerce;
 
-public class Item {
+@SuppressWarnings("rawtypes")
+public class Item implements Comparable {
   private String id;
   private String name;
   private double retail;
@@ -50,5 +51,5 @@ public class Item {
   
   public double getPrice() {
 	  return price;
-  }
+  }// The accessor method is created
 }
