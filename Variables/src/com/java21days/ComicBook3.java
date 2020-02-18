@@ -39,6 +39,7 @@ public class ComicBook3 {
                 System.out.println("Price: $" + comix1.price + "\n");
             }
 	}
+}
   class Comic3{
 	  String title;
 	  String issueNumber;
@@ -70,4 +71,4 @@ public class ComicBook3 {
 	  POOR,
 	  COVERLESS
   }
-}
+
