@@ -7,6 +7,7 @@ public class ComicBook3 {
 	public ComicBook3() {
 	}
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] arguments) {
 		// set up hash map
 		HashMap quality = new HashMap();

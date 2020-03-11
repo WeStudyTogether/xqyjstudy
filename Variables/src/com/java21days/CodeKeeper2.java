@@ -29,6 +29,7 @@ public class CodeKeeper2 {
   }
   
   public static void main(String[] arguments) {
-	  CodeKeeper2 keeper = new CodeKeeper2(arguments);
+	  @SuppressWarnings("unused")
+	CodeKeeper2 keeper = new CodeKeeper2(arguments);
   }
 }
