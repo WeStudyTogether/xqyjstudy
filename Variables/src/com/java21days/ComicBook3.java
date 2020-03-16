@@ -10,6 +10,7 @@ public class ComicBook3 {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] arguments) {
 		// set up hash map
+		@SuppressWarnings("rawtypes")
 		HashMap quality = new HashMap();
 		quality.put(Condition.PRISTINE_MINT, 5.00F);
 		quality.put(Condition.MINT, 3.00F);
