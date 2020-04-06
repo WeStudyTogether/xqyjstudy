@@ -1,8 +1,10 @@
-package oo;
+package ooweek4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+import oo.NaturalNumber;
 
 public class TestNaturalNumber  {
 	   public static void main(String[] args)

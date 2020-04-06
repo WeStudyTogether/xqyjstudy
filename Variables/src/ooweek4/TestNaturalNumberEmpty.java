@@ -1,6 +1,8 @@
-package oo;
+package ooweek4;
 
 import java.io.*;
+
+import oo.NaturalNumber;
 public class TestNaturalNumberEmpty  {
    public static void main(String[] args)
    {
